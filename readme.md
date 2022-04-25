@@ -1,26 +1,22 @@
 # django_crud
-![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=jumpserver)
-![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=jumpserver)
-[![Python3](https://img.shields.io/badge/python-3.7-green.svg?style=plastic)](https://www.python.org/)
-[![Django](https://img.shields.io/badge/django-2.2-brightgreen.svg?style=plastic)](https://www.djangoproject.com/)
 
-## ÏîÄ¿½éÉÜ
+## é¡¹ç›®ä»‹ç»
 
-python3.7.1£¬django2.2.5,ÊµÏÖ×¢²á£¬µÇÂ½£¬Ìî¼Ó£¬É¾³ı£¬ĞŞ¸Ä£¬²éÑ¯µÈ»ù´¡¹¦ÄÜ¡£ĞÂÊÖ±ØÑ§¼¼ÄÜ¡£
+python3.7.1ï¼Œdjango2.2.5,å®ç°æ³¨å†Œï¼Œç™»é™†ï¼Œå¡«åŠ ï¼Œåˆ é™¤ï¼Œä¿®æ”¹ï¼ŒæŸ¥è¯¢ç­‰åŸºç¡€åŠŸèƒ½ã€‚æ–°æ‰‹å¿…å­¦æŠ€èƒ½ã€‚
 
-ÒÔ¼°°üº¬ÁËÑéÖ¤Âë£¬form£¬session£¬ÃÜÂë¼ÓÃÜ£¬ÉÏ´«Í¼Æ¬£¬ÏÔÊ¾Í¼Æ¬µÈÖªÊ¶¡£
+ä»¥åŠåŒ…å«äº†éªŒè¯ç ï¼Œformï¼Œsessionï¼Œå¯†ç åŠ å¯†ï¼Œä¸Šä¼ å›¾ç‰‡ï¼Œæ˜¾ç¤ºå›¾ç‰‡ç­‰çŸ¥è¯†ã€‚
 
-Ñ§Ï°ÁË´ËÏîÄ¿£¬»ù±¾ÉÏ¸æ±ğĞÂÊÖµÄÀ§»ó¡£
+å­¦ä¹ äº†æ­¤é¡¹ç›®ï¼ŒåŸºæœ¬ä¸Šå‘Šåˆ«æ–°æ‰‹çš„å›°æƒ‘ã€‚
 
-## ÏîÄ¿°²×°
+## é¡¹ç›®å®‰è£…
 
 ```
 $ git clone https://github.com/fanyaow/django_crud.git
 $ cd django_crud
 $ pip install -r requirements.txt
 ```
-### Êı¾İ¿âÅäÖÃ
-ĞÂ½¨mysqlÊı¾İ¿âdjango_curdb,ÅäÖÃdjango_curdbÄ¿Â¼ÏÂµÄsetting.py
+### æ•°æ®åº“é…ç½®
+æ–°å»ºmysqlæ•°æ®åº“django_curdb,é…ç½®django_curdbç›®å½•ä¸‹çš„setting.py
 ```
 DATABASES = {
     'default': {
@@ -34,41 +30,16 @@ DATABASES = {
     }
 }
 ```
-### ÔÚpycharmµÄterminal´°¿ÚÖ´ĞĞ
+### åœ¨pycharmçš„terminalçª—å£æ‰§è¡Œ
 ```
  python manage.py makemigrations
  python manage.py migrate
  ```
-### Æô¶¯·şÎñ
+### å¯åŠ¨æœåŠ¡
 ```
 python manage.py runserver 
 ```
- Èç¹ûÖ¸¶¨¶Ë¿ÚÖ´ĞĞ
+ å¦‚æœæŒ‡å®šç«¯å£æ‰§è¡Œ
  ```
  python manage.py runserver 127.0.0.1:8000
  ```
-
-### ä¯ÀÀÆ÷·ÃÎÊ£º
-http://127.0.0.1:8000
-## ÏîÄ¿½ØÍ¼
-### µÇÂ½Ò³Ãæ
-![login](https://github.com/fanyaow/django_crud/blob/master/static/temp/1.png)
-### ×¢²áÒ³Ãæ´íÎó¶¼»áÓĞÏàÓ¦µÄ´íÎóÌáÊ¾
-![login](https://github.com/fanyaow/django_crud/blob/master/static/temp/11.png)
-### ×¢²áÒ³Ãæ
-![register](https://github.com/fanyaow/django_crud/blob/master/static/temp/2.png)
-### µÇÂ½ºóÊ×Ò³
-![index](https://github.com/fanyaow/django_crud/blob/master/static/temp/3.png)
-### Ôö¼ÓÑ§ÉúÒ³Ãæ£¬×¢ÒâÍ¼Æ¬±ØĞëÒªÉÏ´«£¬Ã»×ö¹ı¶àÅĞ¶Ï£¬·ñÔòÌá½»»á±¨´í
-![add](https://github.com/fanyaow/django_crud/blob/master/static/temp/4.png)
-### ĞŞ¸ÄÒ³Ãæ
-![update](https://github.com/fanyaow/django_crud/blob/master/static/temp/5.png)
-### ²éÑ¯Ò³Ãæ
-#### ²éÑ¯Ç°
-![query](https://github.com/fanyaow/django_crud/blob/master/static/temp/6.png)
-#### ²éÑ¯ºó
-![query](https://github.com/fanyaow/django_crud/blob/master/static/temp/7.png)
-### É¾³ı£¬Ö±½Ó»Øµ½Ê×Ò³
-![query](https://github.com/fanyaow/django_crud/blob/master/static/temp/8.png)
-
-## »¶Ó­Star £¬ÄãµÄÔŞÉÍ£¬¾ÍÊÇ¶ÔÎÒ×î´óµÄ¹ÄÀø¡£
